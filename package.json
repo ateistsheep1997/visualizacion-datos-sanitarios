@@ -1,7 +1,7 @@
 {
   "name": "visualizacion-datos-sanitarios",
   "version": "1.0.0",
-  "description": "Aplicación para la visualización y análisis de datos de salud pública.",
+  "description": "Aplicación para la visualización y análisis de datos de salud pública en tiempo real.",
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
