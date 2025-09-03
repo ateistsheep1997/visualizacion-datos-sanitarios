@@ -10,5 +10,5 @@ app.get('/api/data', (req, res) => {
 });
 
 app.listen(PORT, () => {
-    console.log(`Servidor ejecutándose en http://localhost:${PORT}`);
+    console.log(`Server running at http://localhost:${PORT}`);
 });
