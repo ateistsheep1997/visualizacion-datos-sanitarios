@@ -14,7 +14,7 @@
     "d3": "^7.0.0"
   },
   "devDependencies": {
-    "react-scripts": "5.0.1"
+    "react-scripts": "5.0.2"
   },
   "license": "MIT"
 }
