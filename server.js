@@ -7,8 +7,13 @@ app.use(cors());
 app.use(express.static('client/build'));
 
 app.get('/api/data', (req, res) => {
-    // Handle fetching health data here.
-    res.json({ message: 'Health data in JSON format' });
+    // Sample health data
+    const healthData = {
+        heartRate: 72,
+        bloodPressure: '120/80',
+        temperature: 98.6
+    };
+    res.json(healthData);
 });
 
 app.listen(PORT, () => {
