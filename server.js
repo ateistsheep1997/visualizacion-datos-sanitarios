@@ -6,7 +6,7 @@ app.use(express.static('client/build'));
 
 app.get('/api/data', (req, res) => {
     // Aquí se manejaría la obtención de los datos sanitarios.
-    res.json({ message: 'Datos de salud JSON' });
+    res.json({ message: 'Datos de salud en formato JSON' });
 });
 
 app.listen(PORT, () => {
