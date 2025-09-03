@@ -8,7 +8,8 @@ app.use(express.static('client/build'));
 
 // Logging middleware
 app.use((req, res, next) => {
-    console.log(`${req.method} ${req.url}`);
+    const timestamp = new Date().toISOString();
+    console.log(`[${timestamp}] ${req.method} ${req.url}`);
     next();
 });
 
